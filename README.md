@@ -1,3 +1,54 @@
+# Apple Website Clone
+
+A modern, responsive clone of the official **Apple Mac** webpage, built using **Vite**, **HTML**, **CSS**, and **JavaScript**. This project replicates the sleek layout and smooth interactions of Apple’s Mac product page, great for learning frontend development and UI design.
+
+## 🔗 Live Demo
+
+[View Live Site](https://apple-clone2-gyol.vercel.app/)  
+
+
+---
+
+## ✨ Features
+
+- ⚡ Fast development environment using **Vite**
+- 🎨 Clean layout and animations inspired by Apple
+- 🧩 Organized and modular file structure
+- 🖱️ Smooth scroll and hover interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Vite** – Fast build tool for modern frontend development
+- **HTML5** – Semantic markup
+- **CSS3** – Flexbox, Grid, and animations
+- **JavaScript** – DOM manipulation & interactivity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
