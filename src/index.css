@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    width: 100%;
+    height: 5vh;
+    background-color: #ffffff;
+    z-index: 50;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+
+nav i{
+    font-size: 1.1vw;
+}
+.part-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url("./components/images/5ec26e0b6c295800046c81db.png");
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.text-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    gap: 1vh;
+    top: 10%;
+    color: #fff;
+}
+
+.text-part-1 h1{
+    font-size: 3vw;
+}
+
+.text-part-1 p{
+    font-size: 1.6vw;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(21, 78, 129);
+    font-size: 1.2vw;
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(26, 141, 242);
+}
+
+
+
+
+.part-4{
+    display: flex;
+    width: 100%;
+    gap:4px;
+}
+
+.part-4-1{
+    height: 68vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(./components/images/black-texture-background-gy5uqdi0tjs40qei.jpg);
+    object-fit: cover;
+    gap:4px;
+}
+
+.part-4-2{
+    height: 68vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(./components/images/multicolor-background-e9f6dq3ohfw1ybud.jpg);
+}
+
+.part-4 .text-part-1{
+    color: #333;
+}
+
+.part-4 .text-part-1 p{
+    font-size: 1vw;
+    gap:4px;
+}
+.slider-part{
+    padding: 2vh 0vw;
+    width: 100%;
+    height: 70vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width:  90%;
+    background-position: center;
+    background-size: cover;
+}
+
