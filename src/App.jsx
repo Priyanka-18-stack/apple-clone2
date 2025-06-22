@@ -2,8 +2,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Main from"./components/Main";
-import Articles from "./components/articles";
-import Footer from "./components/footer";
+import Articles from "./components/Articles";
+import Footer from "./components/Footer";
 
 function App() {
 return (
