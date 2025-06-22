@@ -10,7 +10,8 @@ A modern, responsive clone of the official **Apple Mac** webpage, built using **
 ---
 
 ## ✨ Features
-
+🎬 Video Hover Play/Pause Interaction
+This useEffect hook adds interactive behavior to video elements with the class .clip. When the user hovers over (mouseenter) a video, it starts playing automatically. When the user moves the mouse away (mouseout), the video pauses.
 - ⚡ Fast development environment using **Vite**
 - 🎨 Clean layout and animations inspired by Apple
 - 🧩 Organized and modular file structure
